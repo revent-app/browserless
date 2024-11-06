@@ -23,7 +23,6 @@
     "build:ts": "tsc",
     "clean": "node scripts/clean.js",
     "dev": "npm run build:dev && env-cmd -f .env node build",
-    "postinstall": "./node_modules/playwright-core/cli.js install chromium",
     "install:adblock": "node scripts/install-adblock.js",
     "install:debugger": "node scripts/install-debugger.js",
     "install:browsers": "npx --no playwright-core install chromium firefox webkit",
